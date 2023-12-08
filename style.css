@@ -1,0 +1,208 @@
+#title {
+    background-image: url(images/fly.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 3.0;
+  }
+  
+  
+  .container-fluid {
+    padding: 3% 15% 9%;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  h2
+  {
+    font-family: 'Times New Roman', 'sans-serif';
+    font-size: 3.0rem;
+    line-height: 1.5;
+  }
+  
+  .airlogo {
+    width: 110%;
+    transform: rotate(20deg);
+    position: absolute;
+    
+  }
+  
+  
+  @media (max-width: 1028px) {
+  
+  body {
+    text-align: center;    
+  }
+    .airlogo {
+      width: 60%;
+      position: static;
+      transform: rotate(0deg);
+    }
+  
+  }
+  
+  
+  .navigation {
+    margin-bottom: 60px;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .navbar {
+    padding-left: 0;
+  }
+  
+  .tincat {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Features */
+  #features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+  }
+  
+  .f1 {
+    margin-bottom: 100px;
+  }
+  
+  .fas {
+    font-size: 4rem;
+    color: #88Ceeb;
+    margin-bottom: 10px;
+  }
+  
+  .fas:hover {
+    color: #ff4c68;
+  }
+  
+  .fontf {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .pf {
+    color: grey;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .forthefeatures {
+    padding-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  
+  /* Testimonial Sections */
+  
+  
+  
+  #testimonials {
+  
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  .testimonial-text{
+    color: white;
+  }
+  .testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+  }
+  .name{
+    color: white;
+  }
+  #press{
+    background-color:white;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin:20px 20px 50px;
+  }
+  /* Pricing */
+  
+  #pricing{
+    padding:100px;
+    text-align: center;
+  }
+  
+  .padding-column {
+    padding: 2% 3%;
+  }
+  
+  
+  /* Call to Action */
+  
+  #cta {
+  text-align: center;
+  padding: 9% 19%;
+  background-color: #88CEEB;
+  }
+  
+  
+  .ctah3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  .ctabtn {
+   margin-top: 5%;
+   margin-left: 2%;
+  }
+  
+  
+  /* Footer */
+  
+  
+  #footer {
+   text-align: center;
+  padding: 5% 10%;
+  }
+  
+  .copyright {
+    color: grey;
+  }
+  
+  
+  .footericon {
+    margin-left: 1%;
+    padding-bottom:2%;
+  }
+  
